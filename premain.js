@@ -58,8 +58,8 @@ if (localStorage.getItem("bookmarks") == null) {
 	let defaultBookmarks = {
 		General: {
 			ChatGPT: "https://chat.openai.com/",
-			Gdrive: "https://drive.google.com",
-			Calendar: "https://calendar.google.com",
+			Drive: "https://drive.google.com",
+			Mail: "https://mail.google.com",
 		},
 		Resources: {
 			Programming: "https://www.codecademy.com/resources/docs",
