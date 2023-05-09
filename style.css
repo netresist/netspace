@@ -85,14 +85,15 @@ body {
         background-size: 300% 300%;
         background-position: 0 50%;
         animation: moveGradient 4s alternate infinite;
-	@keyframes moveGradient {
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+@keyframes moveGradient {
         50% {
             background-position: 100% 50%;
         }
     }
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-}
 
 .general-wrapper {
     display: flex;
