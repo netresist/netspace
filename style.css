@@ -71,7 +71,25 @@ body {
 	position: relative;
 	text-align: center;
 	font-size: 72px;
-	background: url('https://i.pinimg.com/originals/fa/c0/5c/fac05c110c458e9bab3a3248bfb3c376.jpg');
+	background: background: linear-gradient(
+            60deg,
+            hsl(224, 85%, 66%),
+            hsl(269, 85%, 66%),
+            hsl(314, 85%, 66%),
+            hsl(359, 85%, 66%),
+            hsl(44, 85%, 66%),
+            hsl(89, 85%, 66%),
+            hsl(134, 85%, 66%),
+            hsl(179, 85%, 66%)
+        );
+        background-size: 300% 300%;
+        background-position: 0 50%;
+        animation: moveGradient 4s alternate infinite;
+	@keyframes moveGradient {
+        50% {
+            background-position: 100% 50%;
+        }
+    }
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 }
