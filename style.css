@@ -71,6 +71,8 @@ body {
 	position: relative;
 	text-align: center;
 	font-size: 72px;
+	background: url('source.unsplash.com/featured');
+	background-clip: text;
 }
 
 .general-wrapper {
