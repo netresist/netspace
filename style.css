@@ -66,6 +66,16 @@ body {
     display: none;
 }
 
+#title {
+	top: -70px;
+	position: relative;
+}
+
+h2 {
+	text-align: center;
+	font-size: 72px;
+}
+
 .general-wrapper {
     display: flex;
     align-items: center;
