@@ -1,2 +1,2 @@
 # netspace
-a general startpage with powertools and resources
+a startpage with powertools and resources for developers
